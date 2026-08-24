@@ -2,7 +2,7 @@ name: Refresh SRM Stock data
 
 on:
   schedule:
-    # 04:00 Bangkok time (UTC+7) every day = 21:00 UTC the previous day
+    # 07:30 Bangkok time (UTC+7) every day = 21:00 UTC the previous day
     - cron: '0 21 * * *'
   workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
 
